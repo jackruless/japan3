@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ニュース一覧</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding:0;
+        }
+        .wrap{
+            width: 600px;
+            margin: 0px auto;
+ 
+        }
+        .menu{
+            width: 600px;
+            height: 30px;
+            background: cornflowerblue;
+            position: sticky;
+            top:0px;
+        }
+        .menu ul li{
+            float: left;
+            list-style-type: none;
+            padding: 0 40px;
+        }
+        .content ul li img:hover{
+            transform: scale(1.2);/*当鼠标移动到图片上时实现放大功能*/
+        }
+        .content ul li{
+            height: 100px;
+            overflow: hidden;
+            border-bottom: 1px solid lavender;
+            background: white;
+            list-style-type: none;
+            transition-duration: 0.5s;
+            margin: 10px 10px 5px 0;
+ 
+        }
+        .content ul li:hover{
+            background-color: lavender;
+            transition-duration: 0.5s;
+        }
+        .content .left{
+            overflow: hidden;/*隐藏溢出图片内容*/
+            transition-duration: 0.5s;
+            width: 140px;
+            height:80px;
+            /*background: green;*/
+            float: left;
+            margin-right:20px;
+        }
+        .content .right{
+            width:400px ;
+            float: left;
+            /*background: pink;*/
+        }
+        .right_top{
+            height:60px;
+        }
+        .right_bottom{
+            margin_top:50px;
+        }
+        .right_bottom_left span{
+            color: darkgray;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+        <section>
+                <div class="video-box">
+                    <div class="wrapper">
+                        <iframe width="1360" height="400" src="https://openload.co/embed/mPVFiGH2rAs/" frameborder="0"
+                        allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="index-intro">
+                        <div class="wrapper">
+                            <h2>中国のビジネスマンの秘密の物語</h2>
+                            <p>このチャンネルは、中国のニュースや世界のさまざまな興味深い話を紹介するために、日本人の友人に捧げられています。</p>
+                        </div>
+                    </div>
+            </section>
+           <hr>
+
+<div class="wrap">
+    <div class="menu">
+        <ul>
+            <li>一ページ目</li>
+            <li>2ページ目</li>
+            <li>3ページ目</li>
+            <li>4ページ目</li>
+            <li>5ページ目</li>
+        </ul>
+
+        <hr>
+
+    </div>
+            <li>
+                <div class="left"><img src="5g.jpg"/300x300 width="100" hight="60" border="6" alt=""></div>
+                <div class="right">
+                    <div class="right_top">
+                        <h3>中国の5Gはどこをリードしているのでしょうか。</h3>
+                    </div>
+                    <div class="right_bottom">
+                        <div class="right_bottom_left">
+                            <span>中国工学アカデミーの学者
+</span>  <span>世界杯</span>  <span>German</span> <span>|</span> <span>7小时前</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <hr>
+ 
+            <li>
+                <div class="left"><img src="news.jpg"/300x300width="100" hight="100" border="6" alt=""></div>
+                <div class="right">
+                    <div class="right_top">
+                        <h4>お母さんはインターネットでだまされ、私の父は故郷で働いていました。そして7歳の希少な病気の少女が救助のために13万人を寄付しました.</h4>
+                    </div>
+                    <div class="right_bottom">
+                        <div class="right_bottom_left">
+                            <span>诺伊尔</span>  <span>世界杯</span>  <span>德国</span> <span>|</span> <span>7小时前</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+ <hr>
+
+            <li>
+                <div class="left"><img src="news2.jpg"/300x300width="100" hight="100" border="6" alt=""></div>
+                <div class="right">
+                    <div class="right_top">
+                        <h3>最も美しい詐欺防止警察の女性：ドラマ俳優の背景、1億元の電気通信詐欺停止損失を傍受</h3>
+                    </div>
+                    <div class="right_bottom">
+                        <div class="right_bottom_left">
+                            <span>诺伊尔</span>  <span>世界杯</span>  <span>德国</span> <span>|</span> <span>7小时前</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+ <hr>
+            <li>
+                <div class="left"><img src="star1.jpg"/300x300width="100" hight="100" border="6" alt=""></div>
+                <div class="right">
+                    <div class="right_top">
+                        <h3>西安ファッションウィークがまた来ます。 中国には何週間必要ですか？</h3>
+                    </div>
+                    <div class="right_bottom">
+                        <div class="right_bottom_left">
+                            <span>诺伊尔</span>  <span>世界杯</span>  <span>德国</span> <span>|</span> <span>7小时前</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+ <hr>
+            
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
